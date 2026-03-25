@@ -12,14 +12,14 @@ Meu MVP cobre o processo de venda de produtos na farmácia, desde a identificaç
 
 - O que está **dentro** do MVP?
   
-  Cadastro e identificação de clientes
-  Consulta de produtos
-  Verificação de estoque
-  Registro de venda
-  Venda à vista e a prazo
-  Atualização automática do estoque
-  Geração de contas a receber (para vendas a prazo)
-  Emissão de comprovante
+  - Cadastro e identificação de clientes
+  - Consulta de produtos
+  - Verificação de estoque
+  - Registro de venda
+  - Venda à vista e a prazo
+  - Atualização automática do estoque
+  - Geração de contas a receber (para vendas a prazo)
+  - Emissão de comprovante
   
 - O que está **fora** do MVP?
   Gestão completa de fornecedores e compras
