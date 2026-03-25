@@ -63,19 +63,37 @@ Meu MVP cobre o processo de venda de produtos na farmácia, desde a identificaç
 
 ---
 
-# 3. Requisitos Funcionais (mínimo: 8)
-Liste os requisitos funcionais do seu MVP.
+# 3. Requisitos Funcionais
 
-**RF01 —**  
-**RF02 —**  
-**RF03 —**  
-**RF04 —**  
-**RF05 —**  
-**RF06 —**  
-**RF07 —**  
-**RF08 —**  
+**RF01 — Cadastrar cliente**  
+O sistema deve permitir cadastrar novos clientes.  
 
-(Adicione mais se quiser.)
+**RF02 — Consultar cliente**  
+O sistema deve permitir buscar clientes por nome ou identificação.  
+
+**RF03 — Consultar produto**  
+O sistema deve permitir buscar produtos por nome, código ou fabricante.  
+
+**RF04 — Verificar estoque**  
+O sistema deve informar a quantidade disponível do produto.  
+
+**RF05 — Registrar venda**  
+O sistema deve permitir registrar vendas com múltiplos produtos.  
+
+**RF06 — Processar venda à vista**  
+O sistema deve finalizar vendas com pagamento imediato.  
+
+**RF07 — Processar venda a prazo**  
+O sistema deve permitir vendas a prazo vinculadas ao cliente.  
+
+**RF08 — Gerar contas a receber**  
+O sistema deve gerar automaticamente registros financeiros para vendas a prazo.  
+
+**RF09 — Atualizar estoque automaticamente**  
+O sistema deve atualizar o estoque após cada venda.  
+
+**RF10 — Emitir comprovante de venda**  
+O sistema deve gerar comprovante com detalhes da operação.  
 
 ---
 
