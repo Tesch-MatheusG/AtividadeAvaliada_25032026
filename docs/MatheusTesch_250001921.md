@@ -36,7 +36,6 @@ Meu MVP cobre o processo de venda de produtos na farmácia, desde a identificaç
 ---
 
 # 2. Regras de Negócio
-Liste e descreva **cada RN** de forma clara.
 
 **RN01 — Venda somente com estoque disponível** 
 Um produto só pode ser vendido se houver quantidade suficiente no estoque da unidade.
