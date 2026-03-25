@@ -22,29 +22,39 @@ Meu MVP cobre o processo de venda de produtos na farmácia, desde a identificaç
   - Emissão de comprovante
   
 - O que está **fora** do MVP?
-  Gestão completa de fornecedores e compras
-  Contas a pagar
-  Relatórios gerenciais avançados
-  Controle de permissões detalhado
-  Transferência entre unidades
   
-- Por que você fez essas escolhas  
+  - Gestão completa de fornecedores e compras
+  - Contas a pagar
+  - Relatórios gerenciais avançados
+  - Controle de permissões detalhado
+  - Transferência entre unidades
+  
+- Por que você fez essas escolhas?
 
-Exemplo de início:  
-> “Meu MVP cobre o processo de venda desde a identificação/cadastro do cliente até a emissão do comprovante, incluindo tratamento de estoque insuficiente.”
+  O foco foi escolhido por ser o processo central da farmácia, impactando diretamente o atendimento ao cliente e o faturamento. Além disso, envolve integração com estoque e financeiro, tornando-o ideal para um MVP funcional e relevante.
 
 ---
 
 # 2. Regras de Negócio (mínimo: 5)
 Liste e descreva **cada RN** de forma clara.
 
-**RN01 —**  
-**RN02 —**  
-**RN03 —**  
-**RN04 —**  
-**RN05 —**  
+**RN01 — Venda somente com estoque disponível** 
+Um produto só pode ser vendido se houver quantidade suficiente no estoque da unidade.
 
-(Adicione mais se quiser.)
+**RN02 — Atualização automática do estoque**  
+Toda venda deve reduzir automaticamente a quantidade do produto no estoque.
+
+**RN03 — Cadastro obrigatório para venda a prazo**
+Clientes que realizam compras a prazo devem estar cadastrados no sistema.
+
+**RN04 — Geração automática de contas a receber**
+Toda venda a prazo deve gerar automaticamente um lançamento financeiro.
+
+**RN05 — Status das contas a receber**
+As contas devem possuir status: Aberta, Recebida ou Atrasada.
+
+**RN06 — Produtos devem possuir informações completas**
+Todo produto deve ter descrição, preço, unidade de medida e fabricante.
 
 ---
 
