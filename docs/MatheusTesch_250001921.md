@@ -37,29 +37,23 @@ Meu MVP cobre o processo de venda de produtos na farmácia, desde a identificaç
 
 # 2. Regras de Negócio
 
-**RN01 — Venda somente com estoque disponível**
+**RN01 — Venda somente com estoque disponível**  
+Um produto só pode ser vendido se houver quantidade suficiente no estoque da unidade.  
 
-- Um produto só pode ser vendido se houver quantidade suficiente no estoque da unidade.
+**RN02 — Atualização automática do estoque**  
+Toda venda deve reduzir automaticamente a quantidade do produto no estoque.  
 
-**RN02 — Atualização automática do estoque**
+**RN03 — Cadastro obrigatório para venda a prazo**  
+Clientes que realizam compras a prazo devem estar cadastrados no sistema.  
 
-- Toda venda deve reduzir automaticamente a quantidade do produto no estoque.
+**RN04 — Geração automática de contas a receber**  
+Toda venda a prazo deve gerar automaticamente um lançamento financeiro.  
 
-**RN03 — Cadastro obrigatório para venda a prazo**
+**RN05 — Status das contas a receber**  
+As contas devem possuir status: Aberta, Recebida ou Atrasada.  
 
-- Clientes que realizam compras a prazo devem estar cadastrados no sistema.
-
-**RN04 — Geração automática de contas a receber**
-
-- Toda venda a prazo deve gerar automaticamente um lançamento financeiro.
-
-**RN05 — Status das contas a receber**
-
-- As contas devem possuir status: Aberta, Recebida ou Atrasada.
-
-**RN06 — Produtos devem possuir informações completas**
-
-- Todo produto deve ter descrição, preço, unidade de medida e fabricante.
+**RN06 — Produtos devem possuir informações completas**  
+Todo produto deve ter descrição, preço, unidade de medida e fabricante.  
 
 ---
 
