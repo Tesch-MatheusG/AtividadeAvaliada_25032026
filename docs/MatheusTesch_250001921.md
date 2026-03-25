@@ -1,9 +1,9 @@
 # Avaliação — Engenharia de Software
 **Sistema Integrado de Gestão de Farmácia — MVP Definido pelo Estudante**
 
-Aluno: *Preencha aqui*  
-RA: *Preencha aqui*  
-Data: *Preencha aqui*  
+Aluno: Matheus Gabriel de Melo Tesch  
+RA: 250001921
+Data: 25/03/2026
 
 ---
 
