@@ -91,15 +91,19 @@ O sistema deve gerar comprovante com detalhes da operação.
 
 ---
 
-# 🛡 4. Requisitos Não Funcionais (mínimo: 4)
-Liste os RNFs do sistema conforme seu MVP.
+# 🛡 4. Requisitos Não Funcionais
 
-**RNF01 —**  
-**RNF02 —**  
-**RNF03 —**  
-**RNF04 —**  
+**RNF01 — Desempenho**  
+O sistema deve responder às consultas em até 2 segundos.  
 
-(Adicione mais se quiser.)
+**RNF02 — Segurança**  
+O sistema deve garantir autenticação de usuários.  
+
+**RNF03 — Disponibilidade**  
+O sistema deve estar disponível durante horário comercial.  
+
+**RNF04 — Usabilidade**  
+A interface deve ser simples e intuitiva para uso dos atendentes.
 
 ---
 
