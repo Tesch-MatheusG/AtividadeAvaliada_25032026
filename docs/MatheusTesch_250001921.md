@@ -38,6 +38,7 @@ Meu MVP cobre o processo de venda de produtos na farmácia, desde a identificaç
 # 2. Regras de Negócio
 
 **RN01 — Venda somente com estoque disponível**
+
 Um produto só pode ser vendido se houver quantidade suficiente no estoque da unidade.
 
 **RN02 — Atualização automática do estoque**
