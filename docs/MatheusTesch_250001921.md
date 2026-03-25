@@ -8,11 +8,25 @@ Data: *Preencha aqui*
 ---
 
 # 1. Definição do MVP
-Descreva aqui **qual parte do sistema** foi incluída no seu MVP.  
-Explique claramente:
+Meu MVP cobre o processo de venda de produtos na farmácia, desde a identificação ou cadastro do cliente até a finalização da venda com emissão de comprovante, incluindo:
 
-- O que está **dentro** do MVP  
-- O que está **fora** do MVP  
+- O que está **dentro** do MVP?
+  Cadastro e identificação de clientes
+  Consulta de produtos
+  Verificação de estoque
+  Registro de venda
+  Venda à vista e a prazo
+  Atualização automática do estoque
+  Geração de contas a receber (para vendas a prazo)
+  Emissão de comprovante
+  
+- O que está **fora** do MVP?
+  Gestão completa de fornecedores e compras
+  Contas a pagar
+  Relatórios gerenciais avançados
+  Controle de permissões detalhado
+  Transferência entre unidades
+  
 - Por que você fez essas escolhas  
 
 Exemplo de início:  
