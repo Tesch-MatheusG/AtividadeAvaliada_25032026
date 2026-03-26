@@ -111,7 +111,8 @@ A interface deve ser simples e intuitiva para uso dos atendentes.
 
 **Atores:**  
 - Atendente  
-- Cliente  
+- Cliente
+- Sistema  
 
 **Casos de Uso**  
 1. Identificar Cliente  
