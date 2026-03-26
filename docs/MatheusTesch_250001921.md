@@ -113,6 +113,17 @@ A interface deve ser simples e intuitiva para uso dos atendentes.
 - Atendente  
 - Cliente  
 
+**Casos de Uso**  
+1. Identificar Cliente  
+2. Cadastrar Cliente  
+3. Consultar Produto  
+4. Verificar Estoque  
+5. Registrar Venda  
+6. Adicionar Item à Venda  
+7. Finalizar Venda  
+8. Processar Pagamento  
+9. Gerar Conta a Receber  
+10. Emitir Comprovante  
 
 ---
 
