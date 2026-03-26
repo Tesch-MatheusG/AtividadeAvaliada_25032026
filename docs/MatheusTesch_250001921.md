@@ -116,16 +116,16 @@ A interface deve ser simples e intuitiva para uso dos atendentes.
 
 **Casos de Uso**  
 
-**UC01 - Identificar Cliente**
+**UC01 - Identificar Cliente**  
 Ator: Atendente  
 
-**UC02 - Cadastrar Cliente**
+**UC02 - Cadastrar Cliente**  
 Ator: Atendente  
 
-**UC03 - Consultar Produto**
+**UC03 - Consultar Produto**  
 Ator: Atendente  
 
-**UC04 - Verificar Estoque**
+**UC04 - Verificar Estoque**  
 Ator: Sistema  
 
 **UC05 - Registrar Venda**  
