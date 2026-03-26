@@ -190,10 +190,10 @@ Ator: Sistema
 ---
 
 ## **UC01 — Identificar Cliente**
-**Ator(es):** Atendente  
-**Descrição:** Identifica cliente no sistema  
-**Pré-condições:** Sistema Ativo  
-**Pós-condições:** Cliente Identificado ou não encontrado  
+**Ator(es):** Atendente    
+**Descrição:** Identifica cliente no sistema    
+**Pré-condições:** Sistema Ativo    
+**Pós-condições:** Cliente Identificado ou não encontrado    
 
 ### Fluxo Principal  
 1.  Atendente informa nome ou CPF  
@@ -209,11 +209,11 @@ Ator: Sistema
 
 ---
 
-## **UC02 — Cadastrar Cliente**
-**Ator(es):** Atendente  
-**Descrição:** Cadastra um novo cliente no sistema  
-**Pré-condições:** Sistema Ativo, Cliente não cadastrado.
-**Pós-condições:** Cliente cadastrado com sucesso
+## **UC02 — Cadastrar Cliente**  
+**Ator(es):** Atendente    
+**Descrição:** Cadastra um novo cliente no sistema    
+**Pré-condições:** Sistema Ativo, Cliente não cadastrado.  
+**Pós-condições:** Cliente cadastrado com sucesso  
 
 ### Fluxo Principal  
 1.  Atendente insere os dados do Cliente
@@ -222,11 +222,11 @@ Ator: Sistema
 
 ---
 
-## **UC03 — Consultar Produto**
-**Ator(es):** Atendente  
-**Descrição:** Consulta um produto no sistema  
-**Pré-condições:** Sistema Ativo.
-**Pós-condições:** Produto Encontrado ou não
+## **UC03 — Consultar Produto**  
+**Ator(es):** Atendente    
+**Descrição:** Consulta um produto no sistema    
+**Pré-condições:** Sistema Ativo.  
+**Pós-condições:** Produto Encontrado ou não  
 
 ### Fluxo Principal   
 1.  Atendente informa produto  
@@ -234,11 +234,11 @@ Ator: Sistema
 
 ---
 
-## **UC04 — Verificar Estoque**
-**Ator(es):** Sistema   
-**Descrição:** Verifica o estoque de determinado produto 
-**Pré-condições:** Sistema Ativo
-**Pós-condições:** Quantidade do produto no estoque
+## **UC04 — Verificar Estoque**  
+**Ator(es):** Sistema     
+**Descrição:** Verifica o estoque de determinado produto   
+**Pré-condições:** Sistema Ativo  
+**Pós-condições:** Quantidade do produto no estoque  
 
 ### Fluxo Principal   
 1.  Sistema verifica quantidade disponível
@@ -249,11 +249,11 @@ Ator: Sistema
 
 ---
 
-## **UC05 — Registrar Venda**
-**Ator(es):** Atendente   
-**Descrição:** Registra a Venda de produto(s) 
-**Pré-condições:** Sistema Ativo, produto em estoque
-**Pós-condições:** Registra a venda e saída do produto do estoque
+## **UC05 — Registrar Venda**  
+**Ator(es):** Atendente     
+**Descrição:** Registra a Venda de produto(s)   
+**Pré-condições:** Sistema Ativo, produto em estoque  
+**Pós-condições:** Registra a venda e saída do produto do estoque  
 
 ### Fluxo Principal   
 1.  Inicia venda
@@ -267,10 +267,10 @@ Ator: Sistema
 ---
 
 ## **UC06 — Adicionar Item à Venda**
-**Ator(es):** Atendente   
-**Descrição:** Adiciona um item (produto) à venda 
-**Pré-condições:** Sistema Ativo, produto em estoque, Venda iniciada
-**Pós-condições:** Saída do produto do estoque, Item adicionado à venda.
+**Ator(es):** Atendente     
+**Descrição:** Adiciona um item (produto) à venda   
+**Pré-condições:** Sistema Ativo, produto em estoque, Venda iniciada  
+**Pós-condições:** Saída do produto do estoque, Item adicionado à venda.  
 
 ### Fluxo Principal   
 1. Seleciona produto  
@@ -280,10 +280,10 @@ Ator: Sistema
 ---
 
 ## **UC07 — Finalizar Venda**
-**Ator(es):** Atendente   
-**Descrição:** Finaliza a Venda, Confirma a quantidade de itens a remover do estoque 
-**Pré-condições:** Sistema Ativo, Venda iniciada.
-**Pós-condições:** Confirmação da saída do produto do estoque, Venda Finalizada.
+**Ator(es):** Atendente     
+**Descrição:** Finaliza a Venda, Confirma a quantidade de itens a remover do estoque   
+**Pré-condições:** Sistema Ativo, Venda iniciada.  
+**Pós-condições:** Confirmação da saída do produto do estoque, Venda Finalizada.  
 
 ### Fluxo Principal   
 1. Confirma itens
@@ -297,10 +297,10 @@ Ator: Sistema
 ---
 
 ## **UC08 — Processar Pagamento**
-**Ator(es):** Sistema   
-**Descrição:** Confirma o pagamento da venda 
-**Pré-condições:** Sistema Ativo, Venda Finalizada
-**Pós-condições:** Pagamento efetivado com sucesso.
+**Ator(es):** Sistema     
+**Descrição:** Confirma o pagamento da venda   
+**Pré-condições:** Sistema Ativo, Venda Finalizada  
+**Pós-condições:** Pagamento efetivado com sucesso.  
 
 ### Fluxo Principal   
 1. Seleciona produto  
@@ -313,10 +313,10 @@ Ator: Sistema
 ---
 
 ## **UC09 — Gerar contas a receber**
-**Ator(es):** Sistema   
-**Descrição:** Gera um resumo das contas a receber
-**Pré-condições:** Sistema Ativo, Venda A prazo finalizada
-**Pós-condições:** Listagem de Contas a receber
+**Ator(es):** Sistema     
+**Descrição:** Gera um resumo das contas a receber  
+**Pré-condições:** Sistema Ativo, Venda A prazo finalizada  
+**Pós-condições:** Listagem de Contas a receber  
 
 ### Fluxo Principal   
 1. Cria registro financeiro
@@ -326,11 +326,11 @@ Ator: Sistema
 
 ---
 
-## **UC10 — Emitir Comprovante**
-**Ator(es):** Sistema  
-**Descrição:** Emite um comprovante de pagamento da venda 
-**Pré-condições:** Sistema Ativo, Venda Finalizada, pagamento efetivado
-**Pós-condições:** Gera um comprovante de pagamento da compra.
+## **UC10 — Emitir Comprovante**  
+**Ator(es):** Sistema    
+**Descrição:** Emite um comprovante de pagamento da venda   
+**Pré-condições:** Sistema Ativo, Venda Finalizada, pagamento efetivado  
+**Pós-condições:** Gera um comprovante de pagamento da compra.  
 
 ### Fluxo Principal   
 1. Gera comprovante
