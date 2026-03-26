@@ -186,31 +186,49 @@ Ator: Sistema
 ---
 
 # 6. Documentação dos Casos de Uso
-Para **cada caso de uso**, utilize o template abaixo:
+
 ---
 
-## **UCXX — Nome do Caso de Uso**
-**Ator(es):**  
-**Descrição:**  
-**Pré-condições:**  
-**Pós-condições:**  
+## **UC01 — Identificar Cliente**
+**Ator(es):** Atendente  
+**Descrição:** Identifica cliente no sistema  
+**Pré-condições:** Sistema Ativo  
+**Pós-condições:** Cliente Identificado ou não encontrado  
 
-### Fluxo Principal
-1.  
-2.  
-3.  
-4.  
+### Fluxo Principal  
+1.  Atendente informa nome ou CPF  
+2.  Sistema busca cliente  
+3.  Sistema exibe dados do cliente   
 
 ### Fluxos Alternativos / Exceções
-- FA01 —  
-- FA02 —  
+- FA01 —  Cliente não encontrado
+  Sistema permite Cadastro
 
 ### Relacionamentos
-- **Include:** (listar quando aplicável)  
-- **Extend:** (listar quando aplicável)  
-
-### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+- **Extend:** Cadastrar Cliente  
 
 ---
 
-> Repita essa estrutura para **todos os seus casos de uso** (mínimo 10).
+## **UC02 — Cadastrar Cliente**
+**Ator(es):** Atendente  
+**Descrição:** Cadastra um novo cliente no sistema  
+**Pré-condições:** Sistema Ativo, Cliente não cadastrado.
+**Pós-condições:** Cliente cadastrado com sucesso
+
+### Fluxo Principal  
+1.  Atendente insere os dados do Cliente
+2.  Sistema valida dados
+3.  Sistema salva cliente
+
+---
+
+## **UC03 — Consultar Produto**
+**Ator(es):** Atendente  
+**Descrição:** Cadastra um novo cliente no sistema  
+**Pré-condições:** Sistema Ativo, Cliente não cadastrado.
+**Pós-condições:** Cliente cadastrado com sucesso
+
+### Fluxo Principal  
+1.  Atendente insere os dados do Cliente
+2.  Sistema valida dados
+3.  Sistema salva cliente
