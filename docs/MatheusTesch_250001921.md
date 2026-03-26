@@ -170,13 +170,18 @@ Ator: Sistema
   - Emitir Comprovante
  
 
-**Relacionamentos entre Casos de Uso**  
+**Relacionamentos entre Casos de Uso:**  
 
-***include***
-- Registrar Venda -> Identificar Cliente
-- Registrar Venda -> Adicionar Item à Venda
-- Registrar Venda -> Consultar Produto
-- Finalizar Venda -> Emitir Comprovante
+***include***  
+- Registrar Venda -> Identificar Cliente  
+- Registrar Venda -> Adicionar Item à Venda  
+- Registrar Venda -> Consultar Produto  
+- Finalizar Venda -> Emitir Comprovante  
+
+***extend***  
+- Identificar Cliente -> Cadastrar Cliente (se cliente não existir)  
+- Processar Pagamento -> Gerar Conta a Receber (se venda a prazo)  
+- Registrar Venda -> Verificar Estoque (validação durante inclusão de itens)  
 
 ---
 
