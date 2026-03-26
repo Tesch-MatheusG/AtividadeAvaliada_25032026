@@ -277,6 +277,61 @@ Ator: Sistema
 2. Informa quantidade  
 3. Sistema valida estoque  
 
+---
+
+## **UC07 — Finalizar Venda**
+**Ator(es):** Atendente   
+**Descrição:** Finaliza a Venda, Confirma a quantidade de itens a remover do estoque 
+**Pré-condições:** Sistema Ativo, Venda iniciada.
+**Pós-condições:** Confirmação da saída do produto do estoque, Venda Finalizada.
+
+### Fluxo Principal   
+1. Confirma itens
+2. Escolhe forma de pagamento
+3. Finaliza venda
+
 ### Relacionamentos
-- **Include:** Identificar Cliente, Adicionar Item.
-- **Extend:** Verificar Estoque
+- **Include:** Emitir Comprovante.
+
+
+---
+
+## **UC08 — Processar Pagamento**
+**Ator(es):** Sistema   
+**Descrição:** Confirma o pagamento da venda 
+**Pré-condições:** Sistema Ativo, Venda Finalizada
+**Pós-condições:** Pagamento efetivado com sucesso.
+
+### Fluxo Principal   
+1. Seleciona produto  
+2. Informa quantidade  
+3. Sistema valida estoque
+
+### Relacionamentos
+- **Extend:** Gerar Conta a Receber.
+
+---
+
+## **UC09 — Gerar contas a receber**
+**Ator(es):** Sistema   
+**Descrição:** Gera um resumo das contas a receber
+**Pré-condições:** Sistema Ativo, Venda A prazo finalizada
+**Pós-condições:** Listagem de Contas a receber
+
+### Fluxo Principal   
+1. Cria registro financeiro
+2. Define vencimento
+3. Marca como aberta
+
+
+---
+
+## **UC10 — Emitir Comprovante**
+**Ator(es):** Sistema  
+**Descrição:** Emite um comprovante de pagamento da venda 
+**Pré-condições:** Sistema Ativo, Venda Finalizada, pagamento efetivado
+**Pós-condições:** Gera um comprovante de pagamento da compra.
+
+### Fluxo Principal   
+1. Gera comprovante
+2. Exibe/imprime
