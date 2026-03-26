@@ -159,10 +159,24 @@ Ator: Sistema
   - Finalizar Venda  
   - Processar Pagamento
 
-- Cliente Participa de:  
+- Cliente Participa de (Participação indireta):  
   - Identificar Cliente  
   - Registrar Venda  
-  - Processar Pagamento  
+  - Processar Pagamento
+
+- Sistema executa:
+  - Verificar Estoque
+  - Gerar Conta a Receber
+  - Emitir Comprovante
+ 
+
+**Relacionamentos entre Casos de Uso**  
+
+<<include>>
+- Registrar Venda -> Identificar Cliente
+- Registrar Venda -> Adicionar Item à Venda
+- Registrar Venda -> Consultar Produto
+- Finalizar Venda -> Emitir Comprovante
 
 ---
 
