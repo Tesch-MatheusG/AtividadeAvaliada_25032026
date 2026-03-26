@@ -150,18 +150,18 @@ Ator: Sistema
 **Relacionamento Geral (Atores<-> Casos de Uso)**
 
 - Atendente Interage com:  
-  1. Identificar Cliente  
-  2. Cadastrar Cliente  
-  3. Consultar Produto  
-  4. Registrar Venda  
-  5. Adicionar Item à Venda  
-  6. Finalizar Venda  
-  7. Processar Pagamento
+  - Identificar Cliente  
+  - Cadastrar Cliente  
+  - Consultar Produto  
+  - Registrar Venda  
+  - Adicionar Item à Venda  
+  - Finalizar Venda  
+  - Processar Pagamento
 
 - Cliente Participa de:  
-  1. Identificar Cliente  
-  2. Registrar Venda  
-  3. Processar Pagamento  
+  - Identificar Cliente  
+  - Registrar Venda  
+  - Processar Pagamento  
 
 ---
 
