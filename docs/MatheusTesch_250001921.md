@@ -172,7 +172,7 @@ Ator: Sistema
 
 **Relacionamentos entre Casos de Uso**  
 
-<<include>>
+***include***
 - Registrar Venda -> Identificar Cliente
 - Registrar Venda -> Adicionar Item à Venda
 - Registrar Venda -> Consultar Produto
