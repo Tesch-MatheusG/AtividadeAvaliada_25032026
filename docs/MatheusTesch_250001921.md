@@ -91,7 +91,7 @@ O sistema deve gerar comprovante com detalhes da operação.
 
 ---
 
-# 🛡 4. Requisitos Não Funcionais
+# 4. Requisitos Não Funcionais
 
 **RNF01 — Desempenho**  
 O sistema deve responder às consultas em até 2 segundos.  
@@ -107,12 +107,12 @@ A interface deve ser simples e intuitiva para uso dos atendentes.
 
 ---
 
-# 5. Casos de Uso (mínimo: 10)
-### Inserir **diagrama de casos de uso geral**, demonstrando claramente:
-- os 10 casos
-- relação entre eles e atores
-- pelo menos 3 includes
-- pelo menos 3 extends
+# 5. Casos de Uso  
+
+**Atores:**  
+- Atendente  
+- Cliente  
+
 
 ---
 
