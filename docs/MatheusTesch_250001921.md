@@ -224,11 +224,59 @@ Ator: Sistema
 
 ## **UC03 — Consultar Produto**
 **Ator(es):** Atendente  
-**Descrição:** Cadastra um novo cliente no sistema  
-**Pré-condições:** Sistema Ativo, Cliente não cadastrado.
-**Pós-condições:** Cliente cadastrado com sucesso
+**Descrição:** Consulta um produto no sistema  
+**Pré-condições:** Sistema Ativo.
+**Pós-condições:** Produto Encontrado ou não
 
-### Fluxo Principal  
-1.  Atendente insere os dados do Cliente
-2.  Sistema valida dados
-3.  Sistema salva cliente
+### Fluxo Principal   
+1.  Atendente informa produto  
+2.  Sistema exibe resultados
+
+---
+
+## **UC04 — Verificar Estoque**
+**Ator(es):** Sistema   
+**Descrição:** Verifica o estoque de determinado produto 
+**Pré-condições:** Sistema Ativo
+**Pós-condições:** Quantidade do produto no estoque
+
+### Fluxo Principal   
+1.  Sistema verifica quantidade disponível
+
+### Fluxos Alternativos / Exceções
+- FA01 —  Estoque insuficiente
+  Sistema informa indisponibilidade
+
+---
+
+## **UC05 — Registrar Venda**
+**Ator(es):** Atendente   
+**Descrição:** Registra a Venda de produto(s) 
+**Pré-condições:** Sistema Ativo, produto em estoque
+**Pós-condições:** Registra a venda e saída do produto do estoque
+
+### Fluxo Principal   
+1.  Inicia venda
+2.  Identifica cliente
+3.  Adiciona itens
+
+### Relacionamentos
+- **Include:** Identificar Cliente, Adicionar Item.
+- **Extend:** Verificar Estoque
+
+---
+
+## **UC06 — Adicionar Item à Venda**
+**Ator(es):** Atendente   
+**Descrição:** Adiciona um item (produto) à venda 
+**Pré-condições:** Sistema Ativo, produto em estoque, Venda iniciada
+**Pós-condições:** Saída do produto do estoque, Item adicionado à venda.
+
+### Fluxo Principal   
+1. Seleciona produto  
+2. Informa quantidade  
+3. Sistema valida estoque  
+
+### Relacionamentos
+- **Include:** Identificar Cliente, Adicionar Item.
+- **Extend:** Verificar Estoque
