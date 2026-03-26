@@ -147,6 +147,7 @@ Ator: Sistema
 Ator: Sistema  
 
 
+
 **Relacionamento Geral (Atores<-> Casos de Uso)**
 
 - Atendente Interage com:  
